@@ -1,0 +1,85 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100vw;
+    margin: 0;
+    margin: auto;
+}
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    min-width: 100vw;
+}
+duo{
+    display: grid;
+}
+nav{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.testimony{
+    display: grid;
+    /* flex-direction: column; */
+    min-width: 100vw;
+    align-items: center;
+}
+.tcontainer{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+.illustrations{
+    height: 372.5px;
+    display: flex;
+}
+.illustrations>div>img{
+    max-width: 25%;
+    float: left;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 5rem;
+    margin: 5rem 0;
+}
+p{
+    font-family: Bar;
+}
+.bold{
+    font-family: 'Barlow', sans-serif;
+}
+.white-bg{
+    padding: 7rem;
+    width: 100vw;
+}
+li{
+    list-style: none;
+}
+.cherry,.orange{
+    height: 600px;
+    text-align: center;
+    max-width: 50%;
+}
+.cherry{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+}
+.orange{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+}
+.color-bg{
+    padding: 25rem 8rem 4rem 8rem;
+}
+.testimonials>h2{
+    color: var(--dark-moderate-cyan);
+    text-align: center;
+    margin: 0;
+    padding: 6rem 6rem 0 6rem ;
+}
