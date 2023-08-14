@@ -20,11 +20,18 @@ body{
 
     margin: auto;
 }
+#arrow{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 150px; 
+}
 h1{
     text-align: center;
     margin: 0;
     font-size: 5rem;
-    margin: 5rem 0;
+    margin: 3rem 0rem; 
+    font-family: "Fraunces"; 
 }
 img {
     max-inline-size: 100%;
@@ -32,7 +39,7 @@ img {
     max-width: 50%;
 }
 p{
-    font-family: Bar;
+    font-family: "Barlow";
 }
 .bold{
     font-family: 'Barlow', sans-serif;
@@ -49,6 +56,9 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+}
+#mobile-nav{
+    display: none;
 }
 nav{
     display: flex;

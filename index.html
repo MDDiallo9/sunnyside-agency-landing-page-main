@@ -3,12 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="./style-desktop.css" media="(min-width:1440px)">
-  <link rel="stylesheet" href="./style-mobile.css" media="(max-width:1439px)">
+  <link rel="stylesheet" href="./style-desktop.css" media="(min-width:1001px)">
+  <link rel="stylesheet" href="./style-mobile.css" media="(max-width:1000px)">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -19,6 +23,10 @@
 </head>
 <body>
   <section id="hero">
+<nav id="mobile-nav">
+  <div><img src="/images/logo.svg" alt=""></div>
+  <div><img src="/images/icon-hamburger.svg" alt=""></div>
+</nav>
     <nav>
       <div><img src="/images/logo.svg" alt=""></div>
       <ul>
@@ -28,15 +36,18 @@
         <li><button>Contact</button></li>
       </ul>
     </nav>
-    <h1>We are creatives</h1>
+    <h1>WE ARE CREATIVES</h1>
+    <div><img id="arrow" src="./images/icon-arrow-down.svg" alt=""></div>
   </section>
 
   <section class="duo">
     <div class="white-bg">
-      <p class="bold">Transform your brand</p>
-      We are a full-service creative agency specializing in helping brands grow fast.
-      Engage your clients through compelling visuals that do most of the marketing for you.
-      <p class="bold">Learn more</p>
+      <p class="bold big">Transform your brand</p>
+      <p class="grey">
+        We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <p class="bold">LEARN MORE</p>
     </div>
     <img src="./images/desktop/image-transform.jpg" alt="">
   </section>
@@ -44,46 +55,46 @@
   <section class="duo">
     <img src="./images/desktop/image-stand-out.jpg" alt="">
     <div class="white-bg">
-      <p class="bold">Stand out to the right audience</p>
-      Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
-      <p class="bold">Learn more</p>
+      <p class="bold big">Stand out to the right audience</p>
+      <p class="grey">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <p class="bold">LEARN MORE</p>
     </div>
   </section>
 
   <section class="duo">
     <div class="cherry">
       <div class="color-bg">
-        <p class="bold">Graphic design</p>
-        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        <p class="bold big dark greent">Graphic design</p>
+        <p class="green">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
       </div>
     </div>
     <div class="orange">
       <div class="color-bg">
-        <p class="bold">Photography</p>
-        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        <p class="bold big dark greent">Photography</p>
+        <p class="green">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
       </div>
     </div>
   </section>
 
   <section class="testimonials">
-    <h2>Client testimonials</h2>
+    <h2>CLIENT TESTIMONIALS</h2>
     <div class="tcontainer">
       <div class="testimony">
         <img src="/images/image-emily.jpg" alt="">
-        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-        <p class="name">Emily R.</p>
+        <p class="grey">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p class="name bold">Emily R.</p>
         <p class="position">Marketing Director</p>
       </div>
       <div class="testimony">
         <img src="/images/image-thomas.jpg" alt="">
-        Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
-        <p class="name">Thomas S.</p>
+        <p class="grey">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+        <p class="name bold">Thomas S.</p>
         <p class="position">Chief Operating Officer</p>
       </div>
       <div class="testimony">
         <img src="/images/image-jennie.jpg" alt="">
-        Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-        <p class="name">Jennie F.</p>
+        <p class="grey">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p class="name bold">Jennie F.</p>
         <p class="position">Business Owner</p>
       </div>
     </div>
