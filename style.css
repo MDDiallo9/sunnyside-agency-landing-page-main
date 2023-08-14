@@ -41,3 +41,25 @@ h2{
 .greent{
     color: var(--dark-cyan);
 }
+footer{
+    height: 300px;
+    background-color: hsl(167, 40%, 70%);
+    text-align: center;
+}
+footer>ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 2rem 2rem 2rem;
+}
+footer>ul:first-of-type{
+    gap: 2rem;
+    color: var(--dark-moderate-cyan);
+    font-family: "Barlow";
+}
+footer>div:first-of-type{
+    padding: 2rem;
+}
+.blogo{
+    fill: var(--dark-cyan);
+}
