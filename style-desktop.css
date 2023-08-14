@@ -29,7 +29,7 @@ h1{
 img {
     max-inline-size: 100%;
     block-size: auto;
-    max-width: 600px;
+    max-width: 50%;
 }
 p{
     font-family: Bar;
@@ -69,7 +69,7 @@ nav>ul>:last-of-type{
 .cherry,.orange{
     height: 600px;
     text-align: center;
-    max-width: 600px;
+    max-width: 50%;
 }
 .cherry{
     background-image: url(./images/desktop/image-graphic-design.jpg);
@@ -85,7 +85,7 @@ nav>ul>:last-of-type{
 .testimony{
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 25%;
     align-items: center;
 }
 .testimony>img{
@@ -113,7 +113,7 @@ nav>ul>:last-of-type{
     display: flex;
 }
 .illustrations>div>img{
-    max-width: 300px;
+    max-width: 25%;
     float: left;
 }
 footer{
